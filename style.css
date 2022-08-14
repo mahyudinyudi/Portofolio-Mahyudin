@@ -53,6 +53,15 @@
 	text-transform: uppercase;
 	color: black;
 }
+.nav-item:hover .dropdown-menu {
+	display: block;
+	color: aliceblue;
+}
+.dropdown-menu a:hover {
+	display: block;
+	background-color: rgb(114, 111, 255);
+	transition-delay: 50ms;
+}
 .d-flex .btn{
 	font-size: 15px;
 	background-color: black;
