@@ -348,10 +348,6 @@
 	font-family: var(--abril)
 	font-size: 15px;
 }
-.iconify {
-	margin-top: -1.5rem;
-	padding-left: 123px;
-}
 .contact-title span{
 	color: var(--purple);
 }
