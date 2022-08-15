@@ -294,6 +294,9 @@
 }
 #testimonial .col-lg-5{
 	background-color: var(--lightpurple);
+	padding-right: 0%;
+	padding-left: 8%;
+	padding-bottom: 0%;
 }
 #testimonial .one{
 	padding-top: 1.7rem;
@@ -307,14 +310,21 @@
 	font-family: var(--poppins);
 	font-weight: 400;
 	font-size: 25px;
+	margin-top: auto;
 	padding-bottom: 15px;
 }
 #testimonial .one h2{
-	font-size: 35px;
+	font-size: 45px;
 	font-family: var(--poppins);
 	font-weight: 600;
 	color: var(--purple);
 	padding-bottom: 2rem;
+}
+#testimonial .one h3{
+	font-size: 25px;
+	font-family: var(--poppins);
+	font-weight: 200;
+	color: #6E6C78;
 }
 /*Contact*/
 #contact{
@@ -366,6 +376,7 @@ footer{
 	}
 	.navbar .navbar-nav .nav-item{
 		padding: 3px 10px;
+		margin-right: 10px;
 	}
 	.navbar .navbar-nav .nav-item a{
 		background: linear-gradient(to right, var(--purple), var(--lightpurple));
@@ -375,6 +386,8 @@ footer{
 		transition: 0.5s ease-out;
 	}
 	.navbar .navbar-nav .nav-item a:hover{
+		padding: 3px 5px;
+		margin-right: 2px;
 		background-position: -100%;
 	}
 	/* jumbotron */
