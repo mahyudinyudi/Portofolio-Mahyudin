@@ -342,7 +342,16 @@
 	text-align: center;
 	padding-bottom: 2rem;
 }
-
+.contact-title h2{
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: var(--abril)
+	font-size: 15px;
+}
+.iconify {
+	margin-top: -1.5rem;
+	padding-left: 123px;
+}
 .contact-title span{
 	color: var(--purple);
 }
