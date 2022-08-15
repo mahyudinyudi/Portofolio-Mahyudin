@@ -342,12 +342,6 @@
 	text-align: center;
 	padding-bottom: 2rem;
 }
-.contact-title h2{
-	text-decoration: none;
-	text-transform: capitalize;
-	font-family: var(--abril)
-	font-size: 15px;
-}
 .contact-title span{
 	color: var(--purple);
 }
